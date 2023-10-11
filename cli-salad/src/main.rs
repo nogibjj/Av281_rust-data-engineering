@@ -27,4 +27,15 @@ fn main() {
         num_fruits,
         create_fruit_salad(num_fruits)
     );
+    let num_cards = opts.number;
+
+    // Create the hand of cards
+    draw_spade_cards(num_cards);
+
+    // Print the hand of cards in human readable format with a count of cards
+    println!(
+        "Drew a hand with {} spade cards: {:?}",
+        num_cards,
+        draw_spade_cards(num_cards)
+    );
 }
