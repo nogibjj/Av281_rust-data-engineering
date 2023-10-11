@@ -1,5 +1,6 @@
 use clap::Parser;
 use cli_salad::create_fruit_salad;
+use cli_salad::draw_spade_cards;
 
 #[derive(Parser)]
 #[clap(
